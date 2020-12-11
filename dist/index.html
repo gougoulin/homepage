@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/df758e5dca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lin's Homepage</title>
+    <link rel="stylesheet" href="../scss/main.css" />
+  </head>
+  <body>
+    <div id="root-container">
+      <!-- page 1: home  -->
+      <section id="home">
+        <!-- header start  -->
+        <header id="sidebar">
+          <section class="avatar"></section>
+          <section class="sidebar--name">
+            <h3>Lin Lai</h3>
+            <p>web developer</p>
+          </section>
+          <div class="sidebar--navbar">
+            <ul class="sidebar--nav opacity--1 display--flex">
+              <li class="sidebar--navitem">
+                <a class="sidebar--navlink active" href="#"
+                  ><i class="fas fa-home"></i>Home</a
+                >
+              </li>
+              <li class="sidebar--navitem">
+                <a class="sidebar--navlink" href="#about"
+                  ><i class="fas fa-user"></i>About</a
+                >
+              </li>
+              <li class="sidebar--navitem">
+                <a class="sidebar--navlink" href="#works"
+                  ><i class="fas fa-code-branch"></i>Works</a
+                >
+              </li>
+              <li class="sidebar--navitem">
+                <a class="sidebar--navlink" href="#contact"
+                  ><i class="fas fa-comment-dots"></i>Contact</a
+                >
+              </li>
+              <li class="sidebar--navitem disabled">
+                <a class="sidebar--navlink" href="#"
+                  ><i class="fas fa-blog"></i>Blog</a
+                >
+              </li>
+              <!-- <li class="sidebar--navitem"><a class="sidebar--navlink" href="#">LINK</a></li>
+              <li class="sidebar--navitem"><a class="sidebar--navlink" href="#">LINK</a></li> -->
+            </ul>
+          </div>
+          <div class="sidebar--socials">
+            <div class="icon-wrap">
+              <a class="social--link" href="#">
+                <i class="fab fa-github fa-2x"></i
+              ></a>
+            </div>
+            <div class="icon-wrap">
+              <a class="social--link" href="#!"
+                ><i class="fab fa-codepen fa-2x"></i
+              ></a>
+            </div>
+            <div class="icon-wrap">
+              <a class="social--link" href="#!"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+            </div>
+            <div class="icon-wrap">
+              <a class="social--link" href="#!"
+                ><i class="fab fa-linkedin fa-2x"></i
+              ></a>
+            </div>
+            <div class="icon-wrap">
+              <a class="social--link" href="#!"
+                ><i class="far fa-envelope fa-2x"></i
+              ></a>
+            </div>
+          </div>
+          <button class="sidebar--toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </button>
+        </header>
+        <!-- header end  -->
+        <section class="landing--header">
+          <div class="header--content">
+            <p class="landing--display-1">
+              Hello, I'm <span class="highlight">Lin Lai</span>.
+            </p>
+            <div>
+              <a class="social--link" href="#">
+                <i class="fab fa-github"></i
+              ></a>
+              <a class="social--link" href="#!"
+                ><i class="fab fa-codepen"></i
+              ></a>
+              <a class="social--link" href="#!"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a class="social--link" href="#!"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a class="social--link" href="#!"
+                ><i class="fab fa-facebook-messenger"></i
+              ></a>
+            </div>
+            <p class="landing--display-3">
+              I am a front-end web developer based in Melbourne, Australia. I
+              create website and web applications using HTML, CSS, JavaScript,
+              and React. I love coding and have a passion to learn the latest
+              technologies.
+            </p>
+            <a class="landing--link" href="#">View my works</a>
+          </div>
+        </section>
+      </section>
+
+      <!-- page 2: about start -->
+      <section id="about">
+        <div id="skills">
+          <div class="skills-header">
+            <h2>Skills</h2>
+            <div class="skills--tags">
+              <button class="skills--tag hide">Website</button>
+              <button class="skills--tag hide">Web Application</button>
+              <button class="skills--tag hide">
+                Click the skill ball to see more
+              </button>
+              <button id="skill--filter" class="skills--tag">Filter</button>
+            </div>
+          </div>
+          <div class="skill" data-skill="html" data-typeofskill="website">
+            <i class="fab fa-html5"></i>HTML
+          </div>
+          <div class="skill" data-skill="css">
+            <i class="fab fa-css3"></i>CSS
+          </div>
+          <div class="skill" data-skill="javascript">
+            <i class="fab fa-js"></i>JavaScript
+          </div>
+          <div class="skill" data-skill="react">
+            <i class="fab fa-react"></i>React
+          </div>
+          <div class="skill" data-skill="wordpress">
+            <i class="fab fa-wordpress"></i>WordPress
+          </div>
+          <div class="skill" data-skill="bootstrap">
+            <i class="fab fa-bootstrap"></i>Bootstrap
+          </div>
+          <div class="skill" data-skill="sass">
+            <i class="fab fa-sass"></i>Sass
+          </div>
+          <div class="skill" data-skill="php">
+            <i class="fab fa-php"></i>PHP
+          </div>
+          <div class="skill" data-skill="npm">
+            <i class="fab fa-npm"></i>NPM
+          </div>
+          <div class="skill" data-skill="git">
+            <i class="fab fa-git"></i>Git
+          </div>
+          <div class="skill" data-skill="node">
+            <i class="fab fa-node"></i>Node.js
+          </div>
+          <div class="skill" data-skill="photoshop">
+            <i class="fab fa-adobe"></i>Photoshop
+          </div>
+          <div class="skill" data-skill="figma">
+            <i class="fab fa-figma"></i>Figma
+          </div>
+          <div class="skill" data-skill="mysql">MySQL</div>
+          <div class="skill" data-skill="jquery">JQuery</div>
+
+          <!-- <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-wordpress"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-sass"></i>
+          <i class="fab fa-php"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-node"></i> -->
+        </div>
+        <div id="about--email" class="disabled">
+          <i class="far fa-envelope"></i>
+          <p>
+            <a href="mailto:lailin042@gmail.com"
+              >lailin042 <i class="fas fa-at"></i> gmail.com</a
+            >
+          </p>
+        </div>
+        <div id="about--git" class="disabled">
+          <i class="fab fa-github"></i>
+          <p><a target="_blank" href="">Github</a></p>
+        </div>
+        <div id="about--codepen" class="disabled">
+          <i class="fab fa-codepen"></i>
+          <p>
+            <a target="_blank" href="https://codepen.io/gougoulin">Codepen</a>
+          </p>
+        </div>
+        <div id="skills--description">
+          <img src="../img/head.jpeg" alt="" />
+          <blockquote>
+            <span>"</span>
+            <span class="skills--words">
+              Hi, I'm Lin. Click a skill ball that you are interested. I will
+              show you what I can do.
+            </span>
+            <span>"</span>
+          </blockquote>
+        </div>
+        <div id="about--linkedin" class="disabled">
+          <i class="fab fa-linkedin-in"></i>
+          <p><a target="_blank" href="">Linkedin</a></p>
+        </div>
+      </section>
+      <!-- page 2: about end -->
+
+      <!-- page 3: works section start  -->
+      <section id="works">
+        <div class="demo--heading">
+          Recent Works
+          <div class="demo--heading-more">
+            <a class="demo--heading-control" href="#">&lt;</a>
+            <a class="demo--heading-control" href="#">&gt;</a>
+            <a class="demo--heading-control" href="#">+ more</a>
+          </div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+            delectus recusandae natus. Consequatur enim recusandae consequuntur,
+            cupiditate cumque vitae dolores.
+          </div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            facere ullam dolore, molestias ipsam ut minus ratione ipsa doloribus
+            corporis.
+          </div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore,
+            dignissimos veniam. Doloribus hic alias vero et, incidunt eaque
+            iusto necessitatibus.
+          </div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat a
+            culpa quibusdam dolorum magni necessitatibus non corrupti eligendi
+            optio? Eum!
+          </div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">description</div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <img src="../img/landing_background.jpg" alt="" />
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">description</div>
+        </div>
+        <div class="demo--wrap">
+          <div class="demo--img">
+            <a href="#" target="_blank">
+              <p
+                class="codepen"
+                data-height="595"
+                data-theme-id="light"
+                data-default-tab="result"
+                data-user="gougoulin"
+                data-slug-hash="LYVbdoZ"
+                style="height: 595px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+                data-pen-title="login forms"
+              >
+                <span
+                  >See the Pen
+                  <a href="https://codepen.io/gougoulin/pen/LYVbdoZ">
+                    login forms</a
+                  >
+                  by Lin Lai (<a href="https://codepen.io/gougoulin"
+                    >@gougoulin</a
+                  >) on <a href="https://codepen.io">CodePen</a>.</span
+                >
+              </p>
+              <script
+                async
+                src="https://static.codepen.io/assets/embed/ei.js"
+              ></script>
+              <!-- <img src="../img/landing_background.jpg" alt="" /> -->
+            </a>
+            <button>View</button>
+          </div>
+          <div class="demo--description">
+            This demo is a login form that can be found in most websites.
+            <br />
+            technologies: HTML & CSS
+          </div>
+        </div>
+      </section>
+      <!-- page 3: works section end  -->
+
+      <!-- page 4: contact section  -->
+      <!-- contact forms start -->
+      <section id="contact">
+        <div class="contact--text">
+          <h2>Contact Me</h2>
+          <p>
+            I'm currently available for work.
+          </p>
+        </div>
+        <div class="more">
+          <h3>
+            If you would like to hire me. Feel free to
+            <a href="#">say hi</a> via email or leave a message.
+          </h3>
+          <div>
+            <a class="social--link" href="#!"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+            <a class="social--link" href="#!"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a class="social--link" href="#!"
+              ><i class="fab fa-google fa-2x"></i
+            ></a>
+            <a class="social--link" href="#!"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <form action="../scripts/mailto.php" method="POST">
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="leave your message ...."
+            ></textarea>
+          </div>
+          <div>
+            <label for="name"></label>
+            <input id="name" type="text" placeholder="your name" />
+          </div>
+          <div>
+            <label for="email"></label>
+            <input id="email" type="email" placeholder="your@email.address" />
+          </div>
+
+          <div class="button-wrap">
+            <button class="submit">submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact forms end -->
+
+      <!-- footer start -->
+      <footer>
+        <section>
+          <span>Lin Lai &copy; copyright 2020</span>
+        </section>
+        <section>
+          <ul class="footer--nav">
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">works</a></li>
+            <li><a href="#">contact</a></li>
+            <li class="disabled"><a href="#">blog</a></li>
+          </ul>
+        </section>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <div class="fixed--bottom">
+      <i class="fas fa-hand-point-down fa-2x"></i>
+      <i class="fas fa-hand-point-down fa-2x"></i>
+    </div>
+
+    <!-- // customize scripts  -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
